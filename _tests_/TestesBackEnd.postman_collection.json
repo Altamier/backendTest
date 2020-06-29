@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "1c254ec6-3007-4c3a-8369-d74acc08fb27",
+		"name": "TestesBackEnd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/motoristas/5efa2a6e81d117153cb31f11",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/motoristas/5efa2a6e81d117153cb31f11",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"5efa2a6e81d117153cb31f11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/motoristas/todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/motoristas/todos",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/veiculos/testar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/veiculos/testar",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"veiculos",
+						"testar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/veiculos/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nomeProprietario",
+							"value": "Renato",
+							"type": "text"
+						},
+						{
+							"key": "placa",
+							"value": "DXL9956",
+							"type": "text"
+						},
+						{
+							"key": "renavam",
+							"value": "12345678901",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/veiculos/create",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"veiculos",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/motoristas/veiculos/5efa428dc67e684ad8411a02",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "veiculoid",
+							"value": "5efa4d0c829b6d3d2c0824f4",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/motoristas/veiculos/5efa428dc67e684ad8411a02",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"veiculos",
+						"5efa428dc67e684ad8411a02"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/motoristas/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nome",
+							"value": "Renato2",
+							"type": "text"
+						},
+						{
+							"key": "sobreNome",
+							"value": "Campos",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/motoristas/create",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/motoristas/id/5efa57a36120e1306c0bef6f",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/motoristas/id/5efa57a36120e1306c0bef6f",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"id",
+						"5efa57a36120e1306c0bef6f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/motoristas/5efa2a6e81d117153cb31f11",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nome",
+							"value": "Renato2",
+							"type": "text"
+						},
+						{
+							"key": "sobreNome",
+							"value": "Campos",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/motoristas/5efa2a6e81d117153cb31f11",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"5efa2a6e81d117153cb31f11"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
